@@ -1,0 +1,16 @@
+.addProType{
+  .addProType_item{
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    padding: .2rem .4rem;
+    .addProType_label{
+      width: 2.4rem;
+      text-align: right;
+    }
+  }
+  .addProType_item_other{
+    align-items: normal!important;
+    line-height: .5rem;
+  }
+}

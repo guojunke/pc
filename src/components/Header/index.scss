@@ -1,0 +1,27 @@
+.header {
+  .header_box{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding: 0px;
+    height: 50px;
+    padding: 0 20px;
+    text-align: right;
+    background: #fff;
+    p{
+      flex: 1;
+      color: #0364FF;
+      text-align: left;
+      font-size: .24rem;
+      font-weight: bolder;
+    }
+    .header_box_username{
+      display: inline-block;
+      padding-left: 8px;
+      padding-right: 16px;
+    }
+    .header_box_icon{
+      color: #aaa;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.addPro{
+  .addPro_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    .addPro_label{
+      width: 80px;
+      text-align: right;
+    }
+  }
+  .addPro_item_other{
+    align-items: normal!important;
+    line-height: .5rem;
+  }
+}

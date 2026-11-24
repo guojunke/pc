@@ -1,0 +1,25 @@
+.videoDetail{
+  .videoDetail_item_center{
+    align-items: center;
+  }
+  .videoDetail_item{
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    padding: 10px 20px;
+    .videoDetail_label{
+      width: 60px;
+      text-align: right;
+    }
+    .tenderDatail_value{
+      width: 300px;
+      textarea{
+        height: 100px;
+      }
+    }
+    .videoDetail_txt{
+      color: #38f;
+      cursor: pointer;
+    }
+  }
+}

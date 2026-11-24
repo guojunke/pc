@@ -1,0 +1,27 @@
+.userManage{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .userManage_search{
+    display: flex;
+    align-items: center;
+    padding: .2rem;
+    .userManage_input{
+      width: 2.8rem;
+    }
+  }
+  .userManage_table{
+    min-height: 180px;
+    flex: 1;
+    padding: 10px 0;
+    overflow: auto;
+  }
+  .userManage_page{
+    padding: 10px 30px;
+    text-align: right;
+  }
+
+  .ivu-table-header, .ivu-table-header th{
+    background: #eee;
+  }
+}

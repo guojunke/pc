@@ -1,0 +1,25 @@
+.dayRateDetail{
+  .dayRateDetail_item_center{
+    align-items: center;
+  }
+  .dayRateDetail_item_top{
+    line-height: .5rem;
+  }
+  .dayRateDetail_item{
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    padding: 10px 20px;
+    .dayRateDetail_label{
+      width: 60px;
+      text-align: right;
+    }
+    .tenderDatail_value{
+      width: 300px;
+    }
+    .dayRateDetail_txt{
+      color: #38f;
+      cursor: pointer;
+    }
+  }
+}

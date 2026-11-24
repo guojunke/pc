@@ -1,0 +1,12 @@
+.addTender{
+  .addTender_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    .addTender_label{
+      width: 80px;
+      text-align: right;
+    }
+  }
+}

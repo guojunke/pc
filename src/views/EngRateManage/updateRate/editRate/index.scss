@@ -1,0 +1,23 @@
+.editRate{
+  .editRate_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    .editRate_label{
+      width: 80px;
+      text-align: right;
+    }
+    .editRate_item_span{
+      padding: 0 10px;
+    }
+    .editRate_item_color{
+      color: #00C91C;
+    }
+    .editRate_label{
+      display: inline-block;
+      width: 1.2rem;
+      text-align: right;
+    }
+  }
+}

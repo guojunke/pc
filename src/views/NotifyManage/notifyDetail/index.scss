@@ -1,0 +1,22 @@
+.notifyDetai{
+  .notifyDetai_item_center{
+    align-items: center;
+  }
+  .notifyDetai_item{
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+    padding: 10px 20px;
+    .notifyDetai_label{
+      width: 60px;
+      text-align: right;
+    }
+    .tenderDatail_value{
+      width: 300px;
+    }
+    .notifyDetai_txt{
+      color: #38f;
+      cursor: pointer;
+    }
+  }
+}

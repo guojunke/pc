@@ -1,0 +1,12 @@
+.addUser{
+  .addUser_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    .addUser_label{
+      width: 60px;
+      text-align: right;
+    }
+  }
+}

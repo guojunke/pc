@@ -1,0 +1,16 @@
+.deleteDialog{
+  .deleteDialog_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    .deleteDialog_label{
+      width: 80px;
+      text-align: right;
+    }
+  }
+  .deleteDialog_item_other{
+    align-items: normal!important;
+    line-height: .5rem;
+  }
+}

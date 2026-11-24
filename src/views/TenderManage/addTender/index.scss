@@ -1,0 +1,32 @@
+.addTenderData{
+  .addTenderData_item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    .addTenderData_label{
+      width: 60px;
+      text-align: right;
+    }
+    .addTenderData_span{
+      display: flex;
+      align-items: center;
+      margin-left: 2rem;
+      line-height: .36rem;
+      width: 4.2rem;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    textarea{
+      height: 80px;
+    }
+  }
+  .addTenderData_textarea{
+    align-items: flex-start ;
+    .addTenderData_label{
+      line-height: .36rem;;
+    }
+  }
+}

@@ -1,0 +1,93 @@
+.engNumManage{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .engNumManage_search{
+    display: flex;
+    padding: 10px;
+  }
+  .engNumManage_table{
+    min-width: 900px;
+    min-height: 180px;
+    flex: 1;
+    padding: 10px 0;
+    overflow: auto;
+  }
+  .engNumManage_page{
+    padding: 10px 30px;
+    text-align: right;
+  }
+
+  .engNumManage_line1{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 6px;
+    border-right: 1px solid #eee;
+    width: 2.65rem;
+  }
+  .engNumManage_line2{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 6px;
+    border-right: 1px solid #eee;
+    width: 1.5rem;
+  }
+  .engNumManage_line3 {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 6px;
+    border-right: 1px solid #eee;
+    min-width: 3rem;
+    flex: 1;
+  }
+  .engNumManage_line4 {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 6px;
+    border-right: 1px solid #eee;
+    min-width: 2rem;
+    flex: 1;
+  }
+  .engNumManage_line5{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 6px;
+    border-right: 1px solid #eee;
+    width: 1.5rem;
+  }
+  .engNumManage_line6{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 6px;
+    border-right: 1px solid #eee;
+    width: 1.5rem;
+  }
+  .engNumManage_line7{
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding: 6px;
+    border-right: 1px solid #eee;
+    width: 3rem;
+  }
+}

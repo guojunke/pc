@@ -1,0 +1,19 @@
+.engRateManage{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .engRateManage_tab{
+    padding: 0 0 10px;
+    p{
+      display: inline-block;
+      margin-right: 30px;
+      padding: 10px;
+      cursor: pointer;
+    }
+    .engRateManage_tab_active{
+      color: #38f;
+      border-bottom: 2px solid #38f;
+      box-sizing: border-box;
+    }
+  }
+}

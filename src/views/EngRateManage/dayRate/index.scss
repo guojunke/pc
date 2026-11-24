@@ -1,0 +1,23 @@
+.dateRate{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .dateRate_serach{
+    display: flex;
+    flex-wrap: wrap;
+    .dateRate_serach_item{
+      margin-bottom: 10px;
+      margin-right: 20px;
+    }
+  }
+  .dateRate_table{
+    min-height: 180px;
+    flex: 1;
+    padding: 10px 0;
+    overflow: auto;
+  }
+  .dateRate_page{
+    padding: 10px 30px;
+    text-align: right;
+  }
+}

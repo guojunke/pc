@@ -1,0 +1,54 @@
+.updateRate{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .updateRate_serach{
+    display: flex;
+    flex-wrap: wrap;
+    .updateRate_serach_item{
+      margin-bottom: 10px;
+      margin-right: 20px;
+    }
+  }
+  .updateRate_table{
+    width: 96%;
+    margin: 10px auto;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    .updateRate_row{
+      display: flex;
+      text-align: center;
+    }
+    .updateRate_row_box{
+      display: flex;
+    }
+    .updateRate_cell_box{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      .updateRate_cell{
+        height: 100%;
+      }
+    }
+    .updateRate_th{
+      font-size: bolder;
+    }
+    .updateRate_cell {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      line-height: .5rem;
+      padding: 0 .1rem;
+      border-right: 1px solid #ccc;
+      border-bottom: 1px solid #ccc;
+    }
+  }
+
+  .update_all_color {
+    color: #CF8607;
+  }
+  .update_old_color{
+    color: #0364FF;
+  }
+}
